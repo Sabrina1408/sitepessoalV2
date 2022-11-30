@@ -1,0 +1,44 @@
+.logo-regular{
+    font-family: var(--carter-one);
+    font-size: 24px;
+    color: var(--white-100);
+}
+.h1-extra-bold-black{
+    font-family: var(--inter);
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--black-100);
+}
+.h1-extra-bold-white{
+    font-family: var(--inter);
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--white-100);
+}
+.h2-extra-bold{
+    font-family: var(--inter);
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--white-100);
+}
+.h3-a-bold{
+    font-family: var(--inter);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+.p-bold-black{
+    font-family: var(--inter);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--black-100-100);
+}
+.p-bold-white{
+    font-family: var(--inter);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+.span-color{
+    color: var(--purple-200);
+}

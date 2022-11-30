@@ -1,0 +1,19 @@
+#about {
+    background-color: var(--purple-200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 5%;
+    gap: 70px;
+}
+#about div {
+    max-width: 399px;
+    text-align: center;
+}
+#about section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 92px;
+}

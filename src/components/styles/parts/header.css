@@ -1,0 +1,29 @@
+header {
+    background-color: var(--gray-400);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 5% 0;
+}
+
+#nav menu {
+    display: flex;
+    gap: 20px;
+}
+
+#btnMobile {
+    display: none;
+    background: none;
+    cursor: pointer;
+}
+
+#menuX {
+    display: none;
+}
+#nav #menu li a:hover {
+    color: var(--gray-200);
+    transition: ease-in-out .6s;
+}
+#nav.active menu {
+    display: flex;
+}

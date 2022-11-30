@@ -1,0 +1,20 @@
+#technologies {
+    background-color: var(--white-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 5%;
+    gap: 70px;
+}
+#technologies div {
+    max-width: 399px;
+    text-align: center;
+}
+#technologies section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}

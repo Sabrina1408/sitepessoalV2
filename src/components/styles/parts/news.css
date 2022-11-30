@@ -1,0 +1,121 @@
+#news {
+    background-color: var(--purple-200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+    padding: 70px 5%;
+}
+/* #news section {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#news section #div-1-new {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#news section #div-1-new div {
+    display: flex;
+    flex-direction: column;
+    max-width: 481px;
+    gap: 26px;
+}
+#news section #div-1-new div a {
+    background-color: var(--gray-500);
+    display: block;
+    width: 254px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: auto;
+}
+#news section #div-1-new div a:hover {
+    background-color: var(--gray-300);
+    transition: ease-in-out .6s;
+} */
+
+/* Gallery */
+
+#container {
+    position: relative;
+    padding-left: 15px;
+    max-width: 640px; /* 640px */
+    margin: 0 auto;
+}
+#gallery-wrapper {
+    overflow-x: auto; /* Se o elemento passou do width coloca as barrinhas */
+    -ms-overflow-style: none;  /* IE e Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#gallery-wrapper::-webkit-scrollbar { /* Opera e chrome */
+    display: none;
+}
+#gallery {
+    display: flex;
+    flex-flow: nowrap;
+    gap: 15px;
+}
+.arrow-left, .arrow-right { /* Erro no da direita */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 50px;
+    line-height: 250px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(10,23,55,0);
+    z-index: 10;
+}
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    font-size: 50px;
+    line-height: 250px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(10,23,55,0);
+    z-index: 10;
+}
+.item {
+    opacity: 0.6;
+    transition: all .6s ease-in-out;
+}
+.item:first-child {
+    padding-left: 155px;
+}
+.item:last-child {
+    padding-right: 155px;
+}
+.item div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item div a {
+    background-color: var(--gray-500);
+    display: block;
+    width: 254px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: auto;
+}
+.item div a:hover {
+    background-color: var(--gray-300);
+    transition: ease-in-out .6s;
+}
+.current-item {
+    opacity: 1;
+}
+/* https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */

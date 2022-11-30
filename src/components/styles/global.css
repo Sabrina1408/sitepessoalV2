@@ -1,0 +1,44 @@
+@import url('../styles/parts/header.css');
+@import url('../styles/parts/principal.css');
+@import url('../styles/parts/about.css');
+@import url('../styles/parts/arrowUp.css');
+@import url('../styles/parts/technologies.css');
+@import url('../styles/parts/projects.css');
+@import url('../styles/parts/news.css');
+@import url('../styles/parts/contacts.css');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Inter:wght@700;800&display=swap');
+@import url('../styles/fonts.css');
+@import url('../styles/medias.css');
+:root {
+  /* Purple */
+  --purple-300: #722ADF;
+  --purple-200: #7C75DE;
+  --purple-100: #8378D3;
+  /* Black */
+  --black-100: #000000;
+  /* Gray */
+  --gray-500: #01161E;
+  --gray-400: #121214;
+  --gray-300: #202024;
+  --gray-200: #7C7C8A;
+  --gray-100: #E1E1E6;
+  /* White */
+  --white-100: white;
+
+  /* Fonts */
+  --carter-one: 'Carter One', cursive;
+  --inter: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  background-color: rgb(104, 100, 100);
+}
