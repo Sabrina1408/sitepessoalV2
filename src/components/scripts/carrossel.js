@@ -4,7 +4,7 @@ const items = document.querySelectorAll('.item');
 const maxItems = items.length;
 
 controls.forEach(control => {
-    control.addEventListener('click', () => {
+    control.addEventListener('click' || 'scroll', () => {
         const isLeftt = control.classList.contains('arrow-left');
         if(isLeftt){
             currentItem -= 1;
