@@ -22,7 +22,7 @@ header {
 }
 #nav #menu li a:hover {
     color: var(--gray-200);
-    transition: ease-in-out .6s;
+    transition: ease-in-out .2s;
 }
 #nav.active menu {
     display: flex;
