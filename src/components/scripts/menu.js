@@ -1,4 +1,6 @@
 let btnMobile = document.querySelector("#btnMobile");
+/* let btnMobileLiA = document.querySelectorAll(".btn-mobile-li-a");
+btnMobileLiA.addEventListener("click", toggleMenu); */
 btnMobile.addEventListener("click", toggleMenu);
 
 function toggleMenu(event) {
@@ -12,4 +14,4 @@ function toggleMenu(event) {
         event.currentTarget.setAttribute("aria-label", "Abrir menu");
     }
 }
-//toggle - adcione caso tenha e remova caso não tenha
+//toggle - adicione caso tenha e remova caso não tenha
