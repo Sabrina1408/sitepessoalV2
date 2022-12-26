@@ -6,7 +6,7 @@
     <a href="https://sabrinaalves.tk" target="_blank">Link do site</a>
   </li>
   <li>
-    <a href="https://sabrinaalves.tk" target="_blank">Meu portifólio</a>
+    <a href="https://sabrinaalves.tk" target="_blank">Meu portfólio</a>
   </li>
 </ul>
 <h2>Status</h2>

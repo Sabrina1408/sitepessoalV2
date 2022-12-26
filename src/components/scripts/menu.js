@@ -1,6 +1,9 @@
 let btnMobile = document.querySelector("#btnMobile");
-/* let btnMobileLiA = document.querySelectorAll(".btn-mobile-li-a");
-btnMobileLiA.addEventListener("click", toggleMenu); */
+let btnMobileLiA = document.querySelectorAll(".btn-mobile-li-a");
+arrayLiAs = Array.from(btnMobileLiA);
+arrayLiAs.forEach(liAs => {
+    liAs.addEventListener("click", toggleMenu);
+});
 btnMobile.addEventListener("click", toggleMenu);
 
 function toggleMenu(event) {

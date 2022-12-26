@@ -46,7 +46,7 @@
     display: block;
     height: calc(100vh - 70px);
     visibility: visible;
-    overflow-y: auto;
+    /* overflow-y: auto; */
   }
   #nav menu li {
     margin: 5%;

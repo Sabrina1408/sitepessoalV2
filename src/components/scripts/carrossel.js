@@ -5,8 +5,8 @@ const maxItems = items.length;
 
 controls.forEach(control => {
     control.addEventListener('click', () => {
-        const isLeftt = control.classList.contains('arrow-left');
-        if(isLeftt){
+        const isLeft = control.classList.contains('arrow-left');
+        if(isLeft){
             currentItem -= 1;
         } else {
             currentItem += 1;
@@ -24,6 +24,6 @@ controls.forEach(control => {
             block: "nearest"
         })
         items[currentItem].classList.add('current-item')
-        console.log('Control clicked', isLeftt, currentItem);
+        console.log('Control clicked', isLeft, currentItem);
     })
 });
