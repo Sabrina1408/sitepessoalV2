@@ -3,26 +3,39 @@ let btnMobileLiA = document.querySelectorAll(".btn-mobile-li-a");
 let header = document.querySelector("#header");
 let body = document.querySelector(".fadeIn");
 
-arrayLiAs = Array.from(btnMobileLiA);
-arrayLiAs.forEach(liAs => {
-    liAs.addEventListener("click", toggleMenu);
-});
-btnMobile.addEventListener("click", toggleMenu);
 
-function toggleMenu(event) {6
+btnMobile.addEventListener("click", toggleMenu);
+btnMobile.addEventListener("click", fixed);
+function fixed () {
+    const active = nav.classList.contains("active");
+    if(active){
+        body.style.position = "fixed";
+    } else {
+        body.style.position = "static";
+    }
+}
+function toggleMenu(event) {
     let nav = document.querySelector("#nav");
     nav.classList.toggle("active");
     const active = nav.classList.contains("active");
     event.currentTarget.setAttribute("aria-expanded", active);
     if(active){
         event.currentTarget.setAttribute("aria-label", "Fechar menu");
-        header.style.position = "fixed";
-        header.style.width = "100%";
+        arrayLiAs = Array.from(btnMobileLiA);
+        arrayLiAs.forEach(liAs => {
+            liAs.addEventListener("click", toggleMenu);
+        });
+        //header.style.position = "fixed";
+        //header.style.width = "100%";
         /* body.style.overflow = "hidden"; */
+        //body.style.position = "fixed";
+    } 
+    /* if(btnMobile.style.display == "block" && active == true) {
         body.style.position = "fixed";
-    } else {
+    } */
+    else {
         event.currentTarget.setAttribute("aria-label", "Abrir menu");
-        header.style.position = "";
+        //header.style.position = "";
         /* body.style.overflowY = "scroll"; */
         body.style.position = "static";
     }
