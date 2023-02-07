@@ -31,3 +31,7 @@
     background-color: var(--purple-100);
     transition: ease-in-out .6s;
 }
+#projects section div img {
+    width: 300px;
+    height: 227px;
+}

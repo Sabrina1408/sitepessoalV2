@@ -98,6 +98,10 @@
 .item:last-child {
     padding-right: 155px;
 }
+.item img {
+    max-width: 300px;
+    max-height: 227px;
+}
 .item div {
     text-align: center;
     display: flex;
