@@ -23,7 +23,7 @@
 <h3>Problemas</h3>
 <ul>
   <li>🕐 Css e Js no carrosel .</li>
-  <li>🕐 Mudar link para o site pessoal V1.</li>
+  <li>✔️ Mudar link para o site pessoal V1.</li>
 </ul>
 <h3>Ideias/Fazer</h3>
 <ul>
