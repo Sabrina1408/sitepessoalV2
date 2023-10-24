@@ -33,5 +33,6 @@
 }
 #projects section div img {
     width: 300px;
+    object-fit: cover;
     height: 227px;
 }
