@@ -32,7 +32,7 @@
     transition: ease-in-out .6s;
 }
 #projects section div img {
-    width: 300px;
+    width: 290px;
     object-fit: cover;
     height: 227px;
 }
