@@ -12,7 +12,7 @@
     <a href="https://www.figma.com/file/RkxHYinHU5lIERCfSkiikm/Personal-Landing-Page?node-id=0%3A1&t=xUCoYlVdCNVW9qei-1" target="_blank">figma-site</a>
   </li>
 </ul>
-<h2>👽 Status - Fazendo</h2>
+<h2>👽 Status - Finalizado</h2>
 <h2>🧐 Aprendizado</h2>
 <ul>
   <li>Carrossel.</li>
@@ -22,7 +22,7 @@
 <h2>👀 Problemas/Ideias/Fazer</h2>
 <h3>Problemas</h3>
 <ul>
-  <li>🕐 Css e Js no carrosel .</li>
+  <li>✔️ Css e Js no carrosel .</li>
   <li>✔️ Mudar link para o site pessoal V1.</li>
 </ul>
 <h3>Ideias/Fazer</h3>
